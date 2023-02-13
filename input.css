@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.board-div {
+  @apply flex justify-center items-center text-4xl;
+}

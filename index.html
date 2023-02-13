@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="script.js" defer></script>
+    <title>Simple Tailwind Starter</title>
+  </head>
+  <body>
+    <!-- background container -->
+    <div
+      class="bg-black w-screen h-screen flex flex-col justify-center items-center"
+    >
+      <h2 class="mb-16 text-white">Tic Tac Toe</h2>
+      <h2 class="mb-16 text-lg text-white" id="display"></h2>
+      <div class="grid grid-cols-3 grid-rows-3 gap-6" id="game-container">
+        <div data="0" class="w-48 h-48 bg-slate-100 board-div"></div>
+        <div data="1" class="w-48 h-48 bg-slate-100 board-div"></div>
+        <div data="2" class="w-48 h-48 bg-slate-100 board-div"></div>
+        <div data="3" class="w-48 h-48 bg-slate-100 board-div"></div>
+        <div data="4" class="w-48 h-48 bg-slate-100 board-div"></div>
+        <div data="5" class="w-48 h-48 bg-slate-100 board-div"></div>
+        <div data="6" class="w-48 h-48 bg-slate-100 board-div"></div>
+        <div data="7" class="w-48 h-48 bg-slate-100 board-div"></div>
+        <div data="8" class="w-48 h-48 bg-slate-100 board-div"></div>
+      </div>
+    </div>
+  </body>
+</html>
