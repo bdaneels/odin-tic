@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .board-div {
-  @apply flex justify-center items-center text-4xl;
+  @apply flex justify-center items-center rounded-md text-4xl;
 }
